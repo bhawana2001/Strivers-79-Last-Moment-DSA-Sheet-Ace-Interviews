@@ -1,7 +1,7 @@
 //Problem link : https://www.codingninjas.com/codestudio/problems/majority-element_6915220?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf
 
 import java.util.*;
-public class Solution {
+public class majorityElement {
     public static List< Integer > majorityElement(int []v) {
          int n = v.length; //size of the array
 

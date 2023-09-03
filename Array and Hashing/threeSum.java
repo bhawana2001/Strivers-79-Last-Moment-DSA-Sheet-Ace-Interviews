@@ -1,7 +1,7 @@
 //Problem Link: https://www.codingninjas.com/codestudio/problems/three-sum_6922132?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf
 
 import java.util.*;
-public class Solution {
+public class threeSum {
     public static List< List < Integer > > triplet(int n, int []nums) {
         // Write your code here.
          //sort the array

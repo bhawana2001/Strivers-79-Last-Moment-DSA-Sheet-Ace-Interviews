@@ -1,7 +1,7 @@
 //Problem Link : https://www.codingninjas.com/codestudio/problems/next-greater-permutation_6929564?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf
 
 import java.util.*;
-public class Solution {
+public class nextPermutation {
     public static List< Integer > nextGreaterPermutation(List< Integer > A) {
         // Write your code here.
           int n = A.size(); // size of the array.

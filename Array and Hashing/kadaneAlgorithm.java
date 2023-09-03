@@ -1,6 +1,6 @@
 //Problem link : https://bit.ly/3HZltTa
 
-public class Solution {
+public class kadaneAlgorithm {
 	
 	public static long maxSubarraySum(int[] arr, int n) {
 		// write your code here
