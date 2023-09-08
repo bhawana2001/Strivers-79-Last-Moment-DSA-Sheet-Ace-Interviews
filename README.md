@@ -6,7 +6,7 @@ Welcome to my GitHub repository dedicated to solving the Striver DSA-79 sheet pr
 
 The Striver DSA-79 sheet is a comprehensive collection of 79 handpicked coding problems designed to enhance your skills in data structures and algorithms. It covers a wide range of topics, including arrays, linked lists, trees, graphs, dynamic programming, and more. Each problem is carefully curated to help you build a strong foundation in DSA.
 
-You can access the Striver DSA-79 sheet [here](https://takeuforward.org/interview-sheets/strivers-79-last-moment-dsa-sheet-ace-interviews/). 📑
+You can access the Striver DSA-79 sheet [here](https://takeuforward.org/interview-sheets/strivers-79-last-moment-dsa-sheet-ace-interviews/) 📑
 
 ## Repository Structure 📂
 
