@@ -7,29 +7,31 @@ import java.util.*;
 public class longestIncreasingSubsequence {
 
     public static int longestIncreasingSubsequence1(int arr[]) {
-        // Your code goes here
+        List<Integer> lis = new ArrayList<>();
+        lis.add(arr[0]);
         int n = arr.length;
-        int dp[][] = new int[n][n + 1];
-        for (int row[] : dp) {
-            Arrays.fill(row, -1);
+        for (int i = 1; i < n; i++) {
+            if (arr[i] > lis.get(lis.size() - 1)) {
+                lis.add(arr[i]);
+            } else {
+                int index = binarySearch(lis, arr[i]);
+                lis.set(index, arr[i]);
+            }
         }
-        return helper(arr, n, 0, -1, dp);
+        return lis.size();
     }
 
-    public static int helper(int arr[], int n, int ind, int prev, int[][] dp) {
-        if (ind == n) {
-            return 0;
+    private static int binarySearch(List<Integer> lis, int target) {
+        int left = 0, right = lis.size() - 1;
+        while (left < right) {
+            int mid = left + (right - left) / 2;
+            if (lis.get(mid) < target) {
+                left = mid + 1;
+            } else {
+                right = mid;
+            }
         }
-        if (dp[ind][prev + 1] != -1) {
-            return dp[ind][prev + 1];
-        }
-        int notTake = 0 + helper(arr, n, ind + 1, prev, dp);
-        int take = 0;
-        if (prev == -1 || arr[ind] > arr[prev]) {
-            take = 1 + helper(arr, n, ind + 1, ind, dp);
-        }
-        dp[ind][prev + 1] = Math.max(notTake, take);
-        return dp[ind][prev + 1];
+        return left;
     }
 
 }
