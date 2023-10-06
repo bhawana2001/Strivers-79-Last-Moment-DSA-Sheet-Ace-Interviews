@@ -1,12 +1,4 @@
-// Problem Statement:  Implement a data structure ”TRIE” from scratch. Complete some functions.
-// 1) Trie(): Initialize the object of this “TRIE” data structure.
-// 2) insert(“WORD”): Insert the string “WORD”  into this “TRIE” data structure.
-// 3) countWordsEqualTo(“WORD”): Return how many times this “WORD” is present in this “TRIE”.
-// 4) countWordsStartingWith(“PREFIX”): Return how many words are there in this “TRIE” that have the string “PREFIX” as a prefix.
-// 5) erase(“WORD”): Delete this string “WORD” from the “TRIE”.
-// Note:
-// 1. If erase(“WORD”) function is called then it is guaranteed that the “WORD” is present in the “TRIE”.
-// 2. If you are going to use variables with dynamic memory allocation then you need to release the memory associated with them at the end of your solution.
+// Problem Statement: You are given a Trie data structure representing a dictionary of words. You need to implement a function deleteWord that deletes a specified word from the Trie. The Trie is represented by the TrieNode class, which contains an array of children nodes for each letter from 'a' to 'z' and a boolean isEnd indicating whether the current node represents the end of a word.
 
 //Problem Link: https://www.codingninjas.com/studio/problems/trie-delete-operation_1062663?utm_source=striver&utm_medium=website&utm_campaign=a_zcoursetuf
 
