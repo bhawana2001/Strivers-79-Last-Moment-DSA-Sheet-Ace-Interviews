@@ -1,6 +1,6 @@
 # Striver DSA-79 Sheet Solutions 🚀
 
-Welcome to my GitHub repository dedicated to solving the Striver DSA-79 sheet problems. In this repository, I will be posting solutions to the problems from the Striver's Data Structures and Algorithms (DSA) 79-sheet, a popular resource for mastering data structures and algorithms.
+Welcome to my GitHub repository dedicated to solving the Striver DSA-79 sheet problems. In this repository, I will be posting solutions to the problems from the Striver's Data Structures and Algorithms (DSA) 79-sheet, a popular resource for mastering data structures and algorithm.
 
 ## About the Striver DSA-79 Sheet 📘
 
