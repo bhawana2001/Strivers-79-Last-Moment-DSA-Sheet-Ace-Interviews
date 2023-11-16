@@ -34,4 +34,4 @@ You can connect with me and stay updated on my progress through the following ch
 - Email: gaur.bhawana2019@gmail.com 📧
   - Feel free to reach out via email if you have any questions, want to discuss a specific problem, or have any other inquiries.
 
-Thank you for joining me on this DSA journey! 🙌
+Thank you for joining me on this DSA journey!🙌
